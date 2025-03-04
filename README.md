@@ -1,10 +1,8 @@
-# proyecto6_API_REST
+# proyecto7_API_AUTH
 # 📦 API de Gestión de Apps y Recursos
 
 API desarrollada en **Node.js** con **Express** y **MongoDB**, que permite agrupar diversas apps por los recursos que aportan a la organización. Implementa operaciones **CRUD** para las dos colecciones y mantiene una relación entre ellas.
 
-Colección Recursos: documentos, visuales, audio
-Colección Apps: diversas apps categorizadas por presentaciones, videos, música y código
 
 ---
 
@@ -40,18 +38,10 @@ Colección Apps: diversas apps categorizadas por presentaciones, videos, música
 ## 📂 **Endpoints**
 📌 Apps
 Método	Endpoint	Descripción
-GET	/api/apps	Obtener todas las apps
-GET	/api/apps/:id	Obtener una app por ID
-POST	/api/apps	Crear una nueva app
-PUT	/api/apps/:id	Actualizar una app
-DELETE	/api/apps/:id	Eliminar una app
+GET	
 📌 Recursos
 Método	Endpoint	Descripción
-GET	/api/recursos	Obtener todos los recursos
-GET	/api/recursos/:id	Obtener un recurso por ID
-POST	/api/recursos	Crear un nuevo recurso
-PUT	/api/recursos/:id	Actualizar un recurso
-DELETE	/api/recursos/:id	Eliminar un recurso
+G
 
 ## 📂 **Licencia**
 Free use
