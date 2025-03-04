@@ -1,22 +1,22 @@
 const mongoose =require("mongoose")
 
-const appSchema = new mongoose.Schema({
+const cursoSchema = new mongoose.Schema({
   nombre:{type:String, required:true},
   imagen:{type:String, required:true},
   versionGratis:{type:String, required:true},
   precioPro:{type:Number, required:true},
   tema:{type:String, required:true, 
     enum:
-    [ "presentaciones",
-      "videos", 
-      "musica",
+    [ "marketing",
+      "finanzas", 
+      "tecnologia",
     ]
       },
 },
 {
   timestamps:true,
-  collection:"apps"
+  collection:"cursos"
 })
 
-const App = mongoose.model("apps",appSchema, "apps")
-module.exports = App
+const Plataforma = mongoose.model("cursos",cursoSchema, "cursos")
+module.exports = Plataforma
