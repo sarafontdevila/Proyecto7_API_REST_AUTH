@@ -1,5 +1,5 @@
 # proyecto7_API_AUTH
-# 📦 API de Gestión de Apps y Recursos
+# 📦 API de Gestión de 
 
 API desarrollada en **Node.js** con **Express** y **MongoDB**, que permite agrupar diversas apps por los recursos que aportan a la organización. Implementa operaciones **CRUD** para las dos colecciones y mantiene una relación entre ellas.
 
